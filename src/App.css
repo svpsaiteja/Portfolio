@@ -1,0 +1,8 @@
+
+
+h1.name {
+  border: 5px solid var(--bs-primary);
+  color: var(--bs-primary);
+  padding: 10px;
+  text-align: center;
+}

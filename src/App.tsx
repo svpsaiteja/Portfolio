@@ -10,7 +10,7 @@ function App() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12">
-            <h1 className="text-center mb-3">Sami Venkata Phani Saiteja</h1>
+            <h1 className="name mb-3">Sami Venkata Phani Saiteja</h1>
           </div>
           <div className="col-2">
             <Profile />
