@@ -1,4 +1,5 @@
-import { FaLinkedinIn, FaGithub, FaFileAlt } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import "./Profile.css"; // Import the CSS file for styling
 import profileImage from "../assets/profile-pic.jpeg"; // Import the profile image
 
@@ -20,6 +21,12 @@ const Profile = () => {
           target="_blank"
         >
           <FaGithub /> Github
+        </a>
+        <a
+          className="btn btn-outline-primary"
+          href="mailto:saiteja.svp@gmail.com"
+        >
+          <MdEmail /> Email
         </a>
       </div>
     </>
